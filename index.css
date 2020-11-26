@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+   box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("https://img.freepik.com/free-photo/seamless-pattern-hearts_23-2148009302.jpg?size=626&ext=jpg") repeat center center;
+  opacity: .2;
+  z-index: 1;
+}
+
+.question {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  width: 40rem;
+  height: 5rem;
+  border: 1px solid black;
+  border-radius: 3rem;
+  z-index: 2;
+  background-color: rgba(255,255,255,1);
+
+}
+
+.answers {
+  position: relative;
+  position: relative;
+  display: flex;
+  width: 40rem;
+  height: 10rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+  z-index: 2;
+}
+
+.answer {
+  position: relative;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 18rem;
+  height: 4rem;
+  border-radius: 3rem;
+  border: 1px solid black;
+  font-size: 1.2rem;
+  background-color: rgba(255,255,255,.5);
+  z-index: 2;
+  cursor: pointer;
+}
+
+.good {
+  background-color: rgb(14, 224, 42, 1);
+  color: white;
+}
+
+.bad {
+  background-color: rgb(224, 14, 14, 1);
+  color: white;
+}
+
+.game-over {
+  position: relative;
+  z-index: 2;
+  width: 60rem;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-over-pic {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.game-over-text {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.game-over-text span {
+  color: rgb(235, 5, 5);
+}
