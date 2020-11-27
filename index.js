@@ -125,7 +125,7 @@ const nextQuestion = (questionNumber) => {
     let img = document.createElement('IMG');
     let gameOverText = document.createElement('DIV');
     gameOverText.setAttribute('class', 'game-over-text');
-    gameOverText.innerHTML = 'Gratulálok <span>Szerelmem</span>, végig vitted a kvízt.:) <br /> Vajon hol a meglepetés?';
+    gameOverText.innerHTML = 'Gratulálok <span>Szerelmem</span>, végig vitted a kvízt.:) <br /> Vajon hol a meglepetés? A kódja biztos, hogy: 777';
     gameOver.setAttribute('class', 'game-over');
     bg.setAttribute('class', 'bg');
     img.setAttribute('class', 'game-over-pic');
